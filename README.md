@@ -1,6 +1,9 @@
 # lightshotrandomdownloader
 A little program that download a random image from lightshot
 
+TOU MUST HAVE ALREADY INSTALLED NODE.JS
+https://nodejs.org
+
 First download the file and extract it where ever you want
 
 To lunch the program open powershell then cd into the program folder example: cd V:/dev/lightshotdownloader and type ./start
