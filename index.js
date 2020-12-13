@@ -40,7 +40,10 @@ const download_image = (url, image_path) =>
       }),
   );
 
-targetid = makeid(6)
+
+lengthrand = Math.floor((Math.random() * 2) + 5);
+console.log(lengthrand)
+targetid = makeid(lengthrand)
 let target = "https://prnt.sc/"+targetid
 var current = target.slice(16)
 
