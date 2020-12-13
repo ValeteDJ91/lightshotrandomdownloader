@@ -11,8 +11,8 @@ function msleep(n) {
   }
 
 function makeid(length) {
-    var result           = '';
-    var characters       = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    var result = '';
+    var characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
     var charactersLength = characters.length;
     for ( var i = 0; i < length; i++ ) {
        result += characters.charAt(Math.floor(Math.random() * charactersLength));
@@ -42,7 +42,6 @@ const download_image = (url, image_path) =>
 
 
 lengthrand = Math.floor((Math.random() * 2) + 5);
-console.log(lengthrand)
 targetid = makeid(lengthrand)
 let target = "https://prnt.sc/"+targetid
 var current = target.slice(16)
